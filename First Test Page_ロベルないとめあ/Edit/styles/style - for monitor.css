@@ -1,0 +1,53 @@
+html {
+        font-family: "LXGW WenKai Mono TC", monospace;
+        font-weight: 400;
+        font-style: normal;
+}
+  
+html {
+    background-color: #f2dfff;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0;
+    color: #29ebba;
+    text-shadow: 5px 3px 3px black;
+}
+  
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.page_flex {
+    display: flex;
+}
+
+
+.monitor_all {
+    width: 50vw;
+    max-width: 50;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0px 20px 20px 20px;
+    border: 3px solid black;
+}
+
+.monitor_all img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.LeftBox{
+    display: block;
+    border: 2px solid #904840;
+}
