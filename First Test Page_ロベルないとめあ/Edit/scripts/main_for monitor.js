@@ -1,42 +1,53 @@
-const RoberunaitoMeaImage = document.querySelector("img");
-    RoberunaitoMeaImage.onclick = () => {
-    const mySrc = RoberunaitoMeaImage.getAttribute("src");
-    if (mySrc === "images/RoberunaitoMea_002_400x282.png") {
-        RoberunaitoMeaImage.setAttribute("src", "images/RoberunaitoMea_001_400x400.jpg");
-    } else {
-        RoberunaitoMeaImage.setAttribute("src", "images/RoberunaitoMea_002_400x282.png");
-    }
-};
-
-let myButton = document.querySelector("button");
-let myHeading = document.querySelector("h1");
-
-function setUserName() {
-    const myName = prompt("Please enter your name.");
-    localStorage.setItem("name", myName);
-    myHeading.textContent = `Welocome to view RoberunaitoMea, ${myName}`;
-  }
-
-myButton.onclick = function () {
-    setUserName();
-};
-
-function setUserName() {
-    const myName = prompt("Please enter your name.");
-    if (!myName) {
-      setUserName();
-    } else {
-      localStorage.setItem("name", myName);
-      myHeading.textContent = `Mozilla is cool, ${myName}`;
-    }
+html {
+        font-family: "LXGW WenKai Mono TC", monospace;
+        font-weight: 400;
+        font-style: normal;
 }
   
+html {
+    background-color: #f2dfff;
+}
 
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
 
-if (!localStorage.getItem("name")) {
-    setUserName();
-  } else {
-    const storedName = localStorage.getItem("name");
-    myHeading.textContent = `Welocome to view RoberunaitoMea, ${storedName}`;
+h1 {
+    margin: 0;
+    padding: 10px 0;
+    color: #51e0a5;
+    text-shadow: 5px 3px 3px rgb(0, 0, 0);
 }
   
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.page_flex {
+    display: flex;
+}
+
+
+.monitor_all {
+    width: 50vw;
+    max-width: 50;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0px 20px 20px 20px;
+    border: 3px solid black;
+}
+
+.monitor_all img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.sideBox{
+    display: block;
+    border: 2px solid #904840;
+}
