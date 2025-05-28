@@ -33,7 +33,7 @@ li {
 
 
 .side_list_block {
-        display: block;
+        <!-- display: block; -->
         width: 144px;
         background-color: #DCDCDC;
         border: 2px soild black;
@@ -43,7 +43,6 @@ li {
 .side_list_text {
         display: flow;
         font-size: 16px;
-        width: 200px;
 }
 
 .side_list > li {
