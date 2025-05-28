@@ -32,7 +32,10 @@ li {
 }
 
 .side_list {
-    display: flow;
+        display: flow;
+        font-size: 10px;
+        width: 200px
+        border: 1px solid aqua;
 }
 
 .monitor_all {
