@@ -34,8 +34,9 @@ li {
 
 .side_list_block {
         display: block;
-        width: 200px;
-        border: 1px soild aqua;
+        width: 144px;
+        background-color: #DCDCDC;
+        border: 2px soild black;
 }
 
 
@@ -46,7 +47,7 @@ li {
 }
 
 .side_list > li {
-        font-size: 12px;
+        font-size: 12px;       
 }
         
 
