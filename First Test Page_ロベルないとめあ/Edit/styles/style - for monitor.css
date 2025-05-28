@@ -31,6 +31,9 @@ li {
     display: flex;
 }
 
+.side_list {
+    display: flow;
+}
 
 .monitor_all {
     width: 50vw;
