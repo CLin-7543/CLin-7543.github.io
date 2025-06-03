@@ -37,19 +37,20 @@ li {
         width: 180px;
         margin: 10px;
         padding: 2px;
-        background-color: #DCDCDC;
         border: 2px soild black;
 }
 
 
 .side_list_text {
-        display: flow;
+        display: block;
+        font-size: 16px;
         margin: 2px;
         padding: 1px;
-        font-size: 16px;
+        background-color: #DCDCDC;
+        border-style: none;
 }
 
-.side_list > li {
+ul > li {
         font-size: 12px;       
 }
         
