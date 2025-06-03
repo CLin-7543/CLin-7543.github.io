@@ -33,8 +33,10 @@ li {
 
 
 .side_list_block {
-        <!-- display: block; -->
+        display: block;
         width: 144px;
+        margin: 10px;
+        padding: 2px;
         background-color: #DCDCDC;
         border: 2px soild black;
 }
