@@ -11,9 +11,6 @@ html {
 h1 {
     font-size: 60px;
     text-align: center;
-}
-
-h1 {
     margin: 0;
     padding: 10px 0;
     color: #51e0a5;
@@ -27,15 +24,20 @@ li {
     letter-spacing: 1px;
 }
 
+.side_list_text ul > li {
+        font-size: 12px;       
+}
+        
+
 a + img {
         margin: 0.5px;
 }
 
+/*==============================*/
 
 .page_flex {
     display: flex;
 }
-
 
 .side_list_block {
         display: block;
@@ -49,7 +51,6 @@ a + img {
         overflow: auto; /* or overflow-y: scroll */
 }
 
-
 .side_list_text {
         display: block;
         font-size: 16px;
@@ -58,11 +59,6 @@ a + img {
         background-color: #DCDCDC;
         border-style: none;
 }
-
-ul > li {
-        font-size: 12px;       
-}
-        
 
 .monitor_all {
     width: 55vw;
