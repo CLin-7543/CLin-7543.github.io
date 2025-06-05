@@ -30,7 +30,7 @@ li {
         
 
 a + img {
-        margin: 0.5px;
+        padding: 0.5px;
 }
 
 .monitor_all ul {
