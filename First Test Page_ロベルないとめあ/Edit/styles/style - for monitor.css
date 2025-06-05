@@ -27,6 +27,11 @@ li {
     letter-spacing: 1px;
 }
 
+a + img {
+        margin: 0.5px;
+}
+
+
 .page_flex {
     display: flex;
 }
