@@ -62,7 +62,7 @@ a + img {
 
 .monitor_all {
     width: 55vw;
-    max-width: 65;
+    max-width: 65px;
     margin: 0 auto;
     background-color: #ff9500;
     padding: 0px 20px 20px 20px;
