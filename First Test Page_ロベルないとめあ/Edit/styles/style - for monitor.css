@@ -33,6 +33,10 @@ a + img {
         margin: 0.5px;
 }
 
+.monitor_all ul {
+        font-size: 20px;
+}
+
 /*==============================*/
 
 .page_flex {
